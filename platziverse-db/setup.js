@@ -19,7 +19,7 @@ async function setup () {
   if (!answer.setup) {
     return console.log('Nothing happened :)')
   }
-  
+
   const config = {
     database: process.env.DB_NAME || 'platziverse',
     username: process.env.DB_USER || 'platzi',
