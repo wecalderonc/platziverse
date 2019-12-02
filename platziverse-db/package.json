@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "standard",
-    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava tests/* --verbose",
+    "test": "DEBUG=platziverse:* nyc --reporter=lcov ava tests/agent-tests.js --verbose",
     "setup": "DEBUG=platziverse:* node setup.js"
   },
   "author": "",
